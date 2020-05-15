@@ -1,2 +1,2 @@
-# sakurayuuko.github.io
-personal blog
+# Hexo 站点源文件
+备份用
