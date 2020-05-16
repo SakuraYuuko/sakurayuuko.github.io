@@ -13,7 +13,7 @@ if(!is_post())
 else
   nav#pagination.pagination_post
     if(page.prev)
-      - var hasPageNext = page.prev ? 'pull_left' : 'pull-full'
+      - var hasPageNext = page.next ? 'pull_left' : 'pull-full'
       .prev-post(class=hasPageNext)
         - var pagination_cover = page.prev.cover === false ? page.prev.randomcover : page.prev.cover
         a(href=url_for(page.prev.path))

@@ -7,6 +7,8 @@ if theme.aside.enable
         !=partial('includes/widget/card_announcement', {}, {cache:theme.fragment_cache})
       if theme.aside.card_recent_post.enable
         !=partial('includes/widget/card_recent_post', {}, {cache:theme.fragment_cache})
+      if theme.aside.card_calendar
+        !=partial('includes/widget/card_calendar', {}, {cache: theme.fragment_cache})
       if theme.ad && theme.ad.aside
         !=partial('includes/widget/card_ad', {}, {cache:theme.fragment_cache})
       if theme.aside.card_categories.enable
@@ -16,4 +18,4 @@ if theme.aside.enable
       if theme.aside.card_archives.enable
         !=partial('includes/widget/card_archives', {}, {cache:theme.fragment_cache})
       if theme.aside.card_webinfo
-        !=partial('includes/widget/card_webinfo', {}, {cache:theme.fragment_cache})  
+        !=partial('includes/widget/card_webinfo', {}, {cache:theme.fragment_cache})

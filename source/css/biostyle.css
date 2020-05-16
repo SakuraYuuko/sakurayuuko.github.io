@@ -24,6 +24,7 @@ body:not(.heimu_toggle_on) .heimu.off .new,body:not(.heimu_toggle_on) .heimu.off
 }
 table#bio-table {
     text-align: center;
+    display: table;
 }
 
 .bio_p {
@@ -66,8 +67,8 @@ p.bio {
 }
 
 .bio_p{
-    background-image:url('https://img2.66moe.com/img/a2tybW0=2.png');
-    background-repeat:no-repeat;
+    /*background-image:url('https://img2.66moe.com/img/a2tybW0=2.png');*/
+    /*background-repeat:no-repeat;*/
     width:100%;
     margin: 0 auto;
 }
