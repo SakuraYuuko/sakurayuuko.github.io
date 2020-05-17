@@ -65,7 +65,7 @@ algolia_search:
 # Please see doc for more details: https://docs.jerryc.me/config.html#本地搜索
 # ---------------
 local_search:
-  enable: false
+  enable: true
   labels:
     input_placeholder: Search for Posts
     hits_empty: "We didn't find any results for the search: ${query}" # if there are no result
@@ -117,11 +117,11 @@ archive_img: http://www.dmoe.cc/random.php
 
 # the banner image of tag page
 # tag page, look like https://xxxxxxxxx.com/tags/butterfly
-tag_img:
+tag_img: http://www.dmoe.cc/random.php
 
 # the banner image of category page
 # category page, look like https://xxxxxxxxx.com/categories/butterfly
-category_img:
+category_img: http://www.dmoe.cc/random.php
 
 # 如果你有使用hexo-douban，可配置這個
 # douban:
@@ -250,8 +250,8 @@ gitalk:
 # valine comment system. https://valine.js.org
 valine:
   enable: true # if you want use valine,please set this value is true
-  appId: QFv7SgrwU2fDMB37VoJUTaX9-gzGzoHsz  # leancloud application app id
-  appKey: eqqLzkA44ViSxlbkMtfkRFVO # leancloud application app key
+  appId: 27Yir8SAxBVEQwBvisDcM8Od-MdYXbMMI  # leancloud application app id
+  appKey: kBBUcmABhsfkiSzHx7jG6uUM # leancloud application app key
   notify: false # valine mail notify (true/false) Deprecated in v1.4.0+
   verify: false # valine verify code (true/false) Deprecated in v1.4.0+
   pageSize: 10 # comment list page size
@@ -265,7 +265,7 @@ valine:
   enableQQ: false # enable the Nickname box to automatically get QQ Nickname and QQ Avatar
   requiredFields: 昵称,邮箱 # required fields nick/mail/link
   bg: # valine background
-  count: false # dispaly comment count in top_img
+  count: true # dispaly comment count in top_img
 
 # utterances
 # https://utteranc.es/
@@ -303,6 +303,9 @@ ICP:
   url: http://www.beian.miit.gov.cn/
   text: 苏ICP备20012050号-1
   icon: /img/icp.png
+
+UPYUN:
+  enable: true
 
 ####   Analysis    ####
 # ---------------
@@ -537,7 +540,7 @@ aside:
     description:
   card_announcement:
     enable: true
-    content: This is my Blog
+    content: 目前仍在施工中
   card_recent_post:
     enable: true
     limit: 5 # if set 0 will show all
@@ -684,12 +687,14 @@ fragment_cache: true
 # 插入代码到头部</head>之前 和 尾部</body>之前
 inject:
   head:
+     #- <link href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
      #- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
   bottom:
      #- <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
      #- <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
       - <script src="/js/calendar.js"></script>
       - <script src="/js/languages.js"></script>
+     #- <script src="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/js/bootstrap.min.js"></script>
 
 # CDN
 # 非必要不要修改

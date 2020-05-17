@@ -22,3 +22,8 @@
         if theme.ICP.icon
           img.icp-icon(src=url_for(theme.ICP.icon))
         span=theme.ICP.text
+
+  if theme.UPYUN.enable
+    span
+      a(href='https://www.upyun.com/' target='_blank')
+        img(src='https://img2.66moe.com/img/又拍云_logo.png' title='又拍云CDN' style='width: 50px; height: auto; cursor: pointer')

@@ -89,3 +89,11 @@
           span= _p('post.comments') + ':'
           a.comment-count(href=url_for(page.path) + '#post-comment')
             span.fb-comments-count(data-href=urlNoIndex())
+
+      span.post-qrcode
+        span.post-meta__separator |
+        i.fa.fa-qrcode.post-meta__icon.fa-fw(aria-hidden="true")
+        a(href="javasvript:;" onmouseover='document.getElementById("post-qrcode").style.display="block"' onmouseout='document.getElementById("post-qrcode").style.display="none"')='二维码'
+        div#post-qrcode.post-qrcode-img
+          img#post-img(src=qrcode(page.permalink))
+
