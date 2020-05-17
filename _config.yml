@@ -104,4 +104,10 @@ deploy:
   type: git
   repo: https://github.com/SakuraYuuko/sakurayuuko.github.io.git
   branch: master
-  
+
+# sitemap
+## https://github.com/hexojs/hexo-generator-sitemap
+sitemap:
+  path: sitemap.xml
+  template: ./sitemap_template.xml
+  rel: false

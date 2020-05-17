@@ -1,7 +1,8 @@
 ---
 title: 浅谈《Forest》
 date: 2020-04-20 16:00:00
-categories: 游戏
+categories:
+- [游戏,galgame]
 tag: 游戏
 abbrlink: 51
 top_img: https://tva4.sinaimg.cn/large/0072Vf1pgy1foxkihz4b4j31hc0u0wux.jpg

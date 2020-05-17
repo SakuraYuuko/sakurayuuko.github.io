@@ -2,6 +2,7 @@
 Thumbs.db
 db.json
 package-lock.json
+sitemap_template.xml
 *.log
 node_modules/
 public/

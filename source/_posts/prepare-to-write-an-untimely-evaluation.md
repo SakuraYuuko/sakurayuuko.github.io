@@ -1,7 +1,8 @@
 ---
 title: 准备写篇不合时宜的评测，先开个坑
 date: 2020-04-18 12:00:00
-categories: 游戏
+categories:
+- [游戏,galgame]
 tag: 游戏
 abbrlink: 50
 top_img: https://tva4.sinaimg.cn/large/0072Vf1pgy1foxkga5nmaj31kw0w0nmj.jpg
