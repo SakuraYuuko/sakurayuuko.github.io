@@ -6,20 +6,18 @@
 title: 佐倉優子的小窝
 subtitle: '还在施工中'
 description: '还在施工中'
-keywords:
+keywords: '佐倉優子'
 author: 佐倉優子
 language: zh-CN
 timezone: 'Asia/Shanghai'
+favicon: /images/favicon.ico
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
 url: https://m.66moe.com
 root: /
-permalink: posts/:abbrlink.html
-abbrlink:
-  alg: crc16
-  rep: dec
-#permalink_defaults:
+permalink: :year/:month/:day/:title/
+permalink_defaults:
 pretty_urls:
   trailing_index: true # Set to false to remove trailing 'index.html' from permalinks
   trailing_html: true # Set to false to remove trailing '.html' from permalinks
@@ -54,6 +52,11 @@ highlight:
   tab_replace: ''
   wrap: true
   hljs: false
+prismjs:
+  enable: false
+  preprocess: true
+  line_number: true
+  tab_replace: ''
 
 # Home page setting
 # path: Root path for your blogs index page. (default = '')
@@ -79,8 +82,8 @@ meta_generator: true
 ## http://momentjs.com/docs/#/displaying/format/
 date_format: YYYY-MM-DD
 time_format: HH:mm:ss
-## Use post's date for updated date unless set in front-matter
-use_date_for_updated: false
+## updated_option supports 'mtime', 'date', 'empty'
+updated_option: 'mtime'
 
 # Pagination
 ## Set per_page to 0 to disable pagination
@@ -96,7 +99,7 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: Butterfly
+theme: volantis
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
@@ -104,10 +107,3 @@ deploy:
   type: git
   repo: https://github.com/SakuraYuuko/sakurayuuko.github.io.git
   branch: master
-
-# sitemap
-## https://github.com/hexojs/hexo-generator-sitemap
-sitemap:
-  path: sitemap.xml
-  template: ./sitemap_template.xml
-  rel: false

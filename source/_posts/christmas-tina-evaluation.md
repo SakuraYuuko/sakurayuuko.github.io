@@ -3,7 +3,7 @@ title: 《Christmas Tina -泡沫冬景-》评测
 date: 2020-01-11 9:00:00
 categories:
 - [游戏,galgame]
-tag: 吹水
+tag: [吹水]
 top_img: https://i.loli.net/2020/01/11/EVHS98NLkaq6rpi.jpg
 cover: https://i.loli.net/2020/01/11/EVHS98NLkaq6rpi.jpg
 abbrlink: 23
@@ -39,6 +39,6 @@ abbrlink: 23
 
 
 ----------
-{% note info %}
+{% noteblock info %}
 5月16日整理文章时补记，总觉得这篇还差点火候。还是得多看多写多改。
-{% endnote %}
+{% endnoteblock %}

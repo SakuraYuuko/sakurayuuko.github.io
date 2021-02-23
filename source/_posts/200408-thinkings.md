@@ -1,8 +1,10 @@
 ---
 title: 4月8日前琐事记
 date: 2020-04-08 12:00:00
-categories: 吹水
-tag: 吹水
+categories: 
+- 吹水
+tag: 
+- 吹水
 top_img: https://tva3.sinaimg.cn/large/0072Vf1pgy1foxkg1zqesj31kw0w0tpf.jpg
 cover: https://tva3.sinaimg.cn/large/0072Vf1pgy1foxkg1zqesj31kw0w0tpf.jpg
 abbrlink: 49

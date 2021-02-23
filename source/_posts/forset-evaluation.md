@@ -3,7 +3,7 @@ title: 浅谈《Forest》
 date: 2020-04-20 16:00:00
 categories:
 - [游戏,galgame]
-tag: 游戏
+tag: [游戏]
 abbrlink: 51
 top_img: https://tva4.sinaimg.cn/large/0072Vf1pgy1foxkihz4b4j31hc0u0wux.jpg
 cover: https://tva4.sinaimg.cn/large/0072Vf1pgy1foxkihz4b4j31hc0u0wux.jpg
@@ -25,9 +25,9 @@ cover: https://tva4.sinaimg.cn/large/0072Vf1pgy1foxkihz4b4j31hc0u0wux.jpg
 ## 个人对人物的一些理解
 游戏结构比较复杂，为了叙述方便这里用Forest△指代游戏开始时的爱丽丝与灰流共同讲的故事（这里我认为是灰流的梦——与“现实世界”相对应），用Forest〇指代现实世界中雨森的遗作。而Forest的设定是现实世界中的雨森与灰流建构的；Forest的出典是雨森房间里书架的书。  
 
-{% note success %}
+{% noteblock success %}
 理解故事结构的突破口是雨森
-{% endnote %}
+{% endnoteblock %}
 
 关于雨森望：
 【Prologue】雨森是西新宿——N社资材部办公室，在库管理员工。没有朋友，又土又阴沉（地味だし暗いし）。（不知被排挤还是能力不足，文本没有明确说）Prologue的雨森这时在重做公司半年分的资料文档，数据不完全是她的错，此时同事都在围在电视机旁开心的吃饭。雨森有一个手机，上面只有 7 个电话号码，1 个是自己家，一个是工作地点，5 个是自己的前公司。她曾经被 5 个地方开除过，还留着这些号码的原因是因为她不知道怎么删除。存在感不足——擅长做便当，便当做得又好看又有营养，如果有人注意的话，绝对会夸上几句。雨森本人也希望被夸，一年365天三餐天天做但是没人注意 。Prologue的最后爱丽丝通过手机联系到雨森，雨森大惊，惊叫，玻璃声，来到了Forest。暗示了雨森跳楼的原因。
@@ -50,9 +50,9 @@ Forest中英wiki
   
 这里就引用tex的章节顺序图
 ![tex分析的章节顺序图](https://img2.66moe.com/img/eeZ2xSuCkah5nFah.png)
-{% note info %}
+{% noteblock info %}
 はじまりの物語（英译为Story of the Beginning）这里沿用tex的说法简称SOTB。我在上一部分说过，理清剧情脉络的关键是抓住雨森，而はじまりの物語这一部分自然就是关键
-{% endnote %}
+{% endnoteblock %}
 | SOTB |                                                                                      Forest的设定                                                                                     |                                       雨森与灰流                                       |
 |:----:|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------|
 |   Ⅰ  | N/A                                                                                                                                                                                   | 寻找名字魔女的故事                                                                     |
@@ -77,6 +77,6 @@ Forest中英wiki
     
 ![Forest图解（草图） 作者：tex](https://img2.66moe.com/img/y5RqQhD0o6zoUhmP.jpg)
 ![Forest图解 作者：tex](https://img2.66moe.com/img/pCGr8zOJHebfNrYo.jpg)
-{% note info %}
+{% noteblock info %}
 出于尊重原作者劳动成果的原因，便不再引用其余内容了。~~虽然作者本人说欢迎各种转载和使用。~~我个人理解的结构和tex画的图解草图大同小异，不去再重复造轮子了。如果感兴趣请自行下载原作者的wiki，里面还有具体分析和理由。
-{% endnote %}
+{% endnoteblock %}

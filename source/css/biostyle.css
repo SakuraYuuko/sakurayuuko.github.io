@@ -1,6 +1,7 @@
 table#bio-table {
     text-align: center;
     display: table;
+    width: 100%;
 }
 
 .bio_p {

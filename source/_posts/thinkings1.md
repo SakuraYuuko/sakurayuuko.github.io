@@ -1,8 +1,8 @@
 ---
 title: 杂记
 date: 2020-03-23 9:00:00
-categories: 吹水
-tag: 吹水
+categories: [吹水]
+tag: [吹水]
 top_img: https://tva1.sinaimg.cn/large/0072Vf1pgy1foxlhryj0dj31hc0u0ttq.jpg
 cover: https://tva1.sinaimg.cn/large/0072Vf1pgy1foxlhryj0dj31hc0u0ttq.jpg
 abbrlink: 48

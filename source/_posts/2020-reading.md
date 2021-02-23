@@ -1,15 +1,15 @@
 ---
 title: 2020年待读的书
 date: 2020-02-23 12:00:00
-categories: 学习笔记
-tag: 学习笔记
+categories: [学习笔记]
+tag: [学习笔记]
 top_img: https://tva4.sinaimg.cn/large/0072Vf1pgy1foxk7okxe5j31hc0u0nhp.jpg
 cover: https://tva4.sinaimg.cn/large/0072Vf1pgy1foxk7okxe5j31hc0u0nhp.jpg
 abbrlink: 37
 ---
-{% note success %}
+{% noteblock success %}
 4月10日补记
-{% endnote %}
+{% endnoteblock %}
 
 想贪多务得，但也不得不面对现实————人的精力是有限的。记录的书还得下次补，在老家电脑性能差丢文档，真是可惜。  
   
@@ -19,9 +19,9 @@ abbrlink: 37
 
 
 
-{% note success %}
+{% noteblock success %}
 3月16日补充，部分书读完已做标记
-{% endnote %}
+{% endnoteblock %}
 
 > 当然如果有余力的话
 
@@ -46,9 +46,9 @@ abbrlink: 37
 
 `《启蒙辩证法》`霍克海默 、阿多诺
 
-{% note warning %}
+{% noteblock warning %}
 算是今年的计划
-{% endnote %}
+{% endnoteblock %}
 
 
 
