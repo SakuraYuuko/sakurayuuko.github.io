@@ -107,3 +107,8 @@ deploy:
   type: git
   repo: https://github.com/SakuraYuuko/sakurayuuko.github.io.git
   branch: master
+
+sitemap:
+    path: sitemap.xml
+    tag: false
+    category: false
