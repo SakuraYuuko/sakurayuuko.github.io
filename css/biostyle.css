@@ -1,0 +1,63 @@
+table#bio-table {
+    text-align: center;
+    display: table;
+    width: 100%;
+}
+
+.bio_p {
+    border-radius: 2px;
+    border: 0;
+    box-shadow: 0 1px 6px 0 rgba(0, 0, 0, .12), 0 1px 6px 0 rgba(0, 0, 0, .12);
+    padding: 15px;
+}
+
+td > a.shutdown {
+    cursor: not-allowed;
+}
+
+.label_t {
+    background: transparent;
+    box-shadow: inset 0 -.25em .25em -.25em rgba(1, 105, 124, .5);
+    margin: .25em;
+    padding: .25em;
+    transition-duration: 0.5s;
+    display: inline-block;
+    line-height: 2.5em;
+}
+
+.header_alt {
+    color: #777;
+    font-size: 1em;
+    padding: 0.5em;
+}
+
+.label_gps {
+    box-shadow: inset .25em 0 .25em -.25em rgba(70, 0, 128, .42);
+    margin-top: 1.5em;
+}
+
+p.bio {
+    border-left: .25em solid green;
+    line-height: 1.75em;
+    padding: 0.5em;
+    margin-top: 1.5em;
+}
+
+.bio_p{
+    /*background-image:url('https://img2.66moe.com/img/a2tybW0=2.png');*/
+    /*background-repeat:no-repeat;*/
+    width:100%;
+    margin: 0 auto;
+}
+
+#gametable{
+    padding: 15px;
+    margin-top: 2em;
+    border: black;
+    border-radius: 3px;
+    box-shadow: 0 1px 6px 0 rgba(0, 0, 0, .12), 0 1px 6px 0 rgba(0, 0, 0, .12);
+}
+
+@-moz-document url-prefix() {
+    fieldset { display: table-cell; }
+}
