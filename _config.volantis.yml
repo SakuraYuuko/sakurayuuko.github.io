@@ -20,7 +20,7 @@ info:
 navbar:
   visiable: auto # always, auto
   logo: # choose [img] or [icon + title]
-    img: https://cdn.jsdelivr.net/gh/volantis-x/cdn-org/blog/Logo-NavBar@3x.png
+    img: /images/weblogo.png
     icon:
     title:
   menu:
@@ -468,7 +468,7 @@ site_footer:
   icp: >
     <a href="/" target="_blank">Copyright © 2020-2021 佐倉優子</a>|<a href="http://www.beian.miit.gov.cn/"><img class="icp-icon" src="/images/icp.png"><span>苏ICP备20012050号-1</span></a>
   cdn: >
-    <a href="https://www.upyun.com/" target="_blank"><img src="https://img2.66moe.com/img/又拍云_logo.png" title="又拍云CDN" style="width: 60px; height: auto; cursor: pointer; display: inline-block;"></a>
+    <a href="https://www.upyun.com/" target="_blank"><img src="/images/upyun_logo.png" title="又拍云CDN" style="width: 60px; height: auto; cursor: pointer; display: inline-block;"></a>
 ############################### Site Footer ############################### > end
 
 ############################### Plugins ############################### > start
