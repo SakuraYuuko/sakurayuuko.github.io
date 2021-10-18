@@ -5,8 +5,9 @@ categories:
 - [游戏,galgame]
 tag: 游戏
 abbrlink: 50
-top_img: https://tva4.sinaimg.cn/large/0072Vf1pgy1foxkga5nmaj31kw0w0nmj.jpg
-cover: https://tva4.sinaimg.cn/large/0072Vf1pgy1foxkga5nmaj31kw0w0nmj.jpg
+headimg: https://tva4.sinaimg.cn/large/0072Vf1pgy1foxkga5nmaj31kw0w0nmj.jpg
+cover: true
+description: 《Forest》一些记录
 ---
 >“不合时宜”是指这一阵子对于我个人来说，搞这玩意有点不太合适的，准确来讲是不务正业。
   
